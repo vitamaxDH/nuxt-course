@@ -28,7 +28,6 @@ const createStore = () => {
                         commit('setPosts', postsArray);
                     })
                     .catch(e => context.error(e))
-        
       },
       setPosts({ commit }, posts) {
         commit('setPosts', posts)

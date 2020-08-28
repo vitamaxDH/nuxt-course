@@ -39,6 +39,7 @@ export default {
   plugins: [
     '~plugins/core-components.js',
     '~plugins/date-filter.js',
+    '~plugins/myPlugin.js',
   ],
   /*
   ** Auto import components
